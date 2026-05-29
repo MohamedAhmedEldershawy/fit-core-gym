@@ -338,13 +338,13 @@ body {
   text-align: center;
 }
 #membership-group .container .title h2 {
-  font-size: 36;
+  font-size: 36px;
   font-weight: 700;
   color: #101828;
   margin-bottom: 20px;
 }
 #membership-group .container .title p {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 400;
   color: #4a5565;
   margin-bottom: 70px;
@@ -366,16 +366,23 @@ body {
 #membership-group .container .form .form-group .f-name label {
   display: block;
   padding-bottom: 10px;
+    font-size: 18px;
+  font-weight: 500;
+  color: #364153;
 }
 #membership-group .container .form .form-group .l-name label {
   display: block;
   padding-bottom: 10px;
+    font-size: 18px;
+  font-weight: 500;
+  color: #364153;
 }
 #membership-group .container .form .form-group .f-name input {
   width: 100%;
   border-radius: 10px;
   padding: 16px 24px;
   border: 2px solid #e5e7ec;
+
 }
 #membership-group .container .form .form-group .l-name input {
   width: 100%;
@@ -394,6 +401,9 @@ body {
 #membership-group .container .form .email label {
   display: block;
   padding-bottom: 10px;
+    font-size: 18px;
+  font-weight: 500;
+  color: #364153;
 }
 #membership-group .container .form .email input {
   width: 100%;
@@ -409,6 +419,9 @@ body {
 #membership-group .container .form .phone-number label {
   display: block;
   padding-bottom: 10px;
+    font-size: 18px;
+  font-weight: 500;
+  color: #364153;
 }
 #membership-group .container .form .phone-number input {
   width: 100%;
@@ -425,6 +438,9 @@ body {
 #membership-group .container .form .member-ship label {
   display: block;
   padding-bottom: 10px;
+    font-size: 18px;
+  font-weight: 500;
+  color: #364153;
 }
 #membership-group .container .form .member-ship select {
   width: 100%;
@@ -441,6 +457,9 @@ body {
 #membership-group .container .form .fitness-goal label {
   display: block;
   padding-bottom: 10px;
+    font-size: 18px;
+  font-weight: 500;
+  color: #364153;
 }
 #membership-group .container .form .fitness-goal textarea {
   width: 100%;
@@ -552,4 +571,96 @@ body {
   float: left;
   width: 33%;
   color: #6a7282;
+}
+@media screen and (max-width: 640px)  {
+  .container{
+    margin: auto;
+    width: 93%;
+  }
+  #home .container .content{
+    width: 100%;
+  }
+    #home .container .content h1 {
+      font-size: 48px;
+    }
+    #home .container .content h1 br{
+    display: none;
+  }
+      #home .container .content p {
+      font-size: 20px;
+    }
+    #home .container img{
+width: 100%;
+margin:35px 0;
+
+  }
+  #why-choose-us .container .card .benfit-card {
+    width: 100%;
+    padding: 16px 0;
+  }
+  #why-choose-us .container .card .benfit-card .inner{
+    border-radius: 15px;
+  }
+    #why-choose-us .container .card .benfit-card .inner-1{
+    border-radius: 15px;
+  }
+    #why-choose-us .container .card .benfit-card .inner-2{
+    border-radius: 15px;
+  }
+  #why-choose-us .container .more-benefits img{
+    width: 100%;
+  }
+  #why-choose-us .container .more-benefits .content{
+    width: 100%;
+    margin: 40px 0;
+    padding: 0;
+  }
+  #testimonails .container .reviews .card {
+    width: 100%;
+  }
+    #testimonails .container .statiistics{
+  padding: 20px 0;
+    }
+    #testimonails .container .statiistics .item{
+      width: 50%;
+      padding: 10px 0;
+      margin: 0;
+    }
+  
+      #membership-group .container .title p {
+padding:0 20px;
+
+
+    }
+      #membership-group .container .form {
+        width: 100%;
+      }
+      #membership-group .container .form  form .form-group .f-name {
+        width: 100%;
+      }
+      #membership-group .container .form  form .form-group .l-name{
+        width: 100%;
+        transform: translate(-19px);
+        padding:10px;
+        }
+        #footer .container .content .item-1{
+          width: 100%;
+          
+        }
+          #footer .container .content .item-2{
+          width: 100%;
+          margin: 20px 0;
+        }
+          #footer .container .content .item-3{
+          width: 100%;
+        }
+        #footer .container .copyright .cp-rig{
+          width: 100%;
+          text-align: center;
+        }
+          #footer .container .copyright .policy{
+            width: 100%;
+            text-align: center;
+            margin-top: 15px;
+          }
 }
