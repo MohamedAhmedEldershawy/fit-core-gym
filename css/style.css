@@ -1,0 +1,555 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 77%;
+  margin: 0 auto;
+}
+.clear-fix {
+  clear: both;
+}
+body {
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    Ubuntu,
+    Cantarell,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+#home {
+  height: 100dvh;
+}
+
+#home .container .content {
+  width: 50%;
+  float: left;
+
+  padding-top: 70px;
+  padding-left: 40px;
+}
+#home .container img {
+  width: 34%;
+  float: left;
+  margin-top: 110px;
+  border-radius: 20px;
+  margin-left: 70px;
+}
+#home .container .content .btn1 {
+  background-color: black;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 10px;
+  margin: 0 16px 0 0;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 25px 16px 0 0;
+}
+#home .container .content .btn2 {
+  background-color: transparent;
+
+  padding: 16px 32px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 20px 0 0 0;
+}
+#home .container .content h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+#home .container .content p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4a5565;
+}
+#why-choose-us .container .title {
+  text-align: center;
+}
+#why-choose-us .container .title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#why-choose-us .container .title p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4a5565;
+  margin-bottom: 60px;
+}
+#why-choose-us .container .card .benfit-card {
+  width: 33.333%;
+  float: left;
+  padding: 0 16px;
+}
+#why-choose-us .container .card .benfit-card .inner {
+  background-color: #dbeafe;
+  background-color: #dbeafe;
+  border: 16px soild;
+  border-radius: 10px;
+  padding: 32px;
+  text-align: center;
+}
+
+#why-choose-us .container .card .benfit-card .inner-1 {
+  background-color: #d0fae5;
+  border: 16px soild #d0fae5;
+  border-radius: 10px;
+  padding: 32px;
+  text-align: center;
+}
+#why-choose-us .container .card .benfit-card .inner-2 {
+  background-color: #f3e8ff;
+  border: 16px soild #f3e8ff;
+  border-radius: 10px;
+  padding: 36px;
+  text-align: center;
+}
+#why-choose-us .container .card .benfit-card .inner h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101828;
+  margin-bottom: 10px;
+}
+
+#why-choose-us .container .card .benfit-card .inner-1 h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101828;
+  margin-bottom: 10px;
+}
+
+#why-choose-us .container .card .benfit-card .inner-2 h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101828;
+  margin-bottom: 10px;
+}
+#why-choose-us .container .card .benfit-card .inner p {
+  font-size: 14px;
+}
+#why-choose-us .container .card .benfit-card .inner-1 p {
+  font-size: 14px;
+}
+#why-choose-us .container .card .benfit-card .inner-2 p {
+  font-size: 14px;
+}
+
+#why-choose-us .container .card .benfit-card .inner .outer {
+  width: 60px;
+  height: 60px;
+  background-color: #155dfc;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px 0 20px 10px;
+  margin-bottom: 20px;
+}
+#why-choose-us .container .card .benfit-card .inner-1 .outer-1 {
+  width: 60px;
+  height: 60px;
+  background-color: #009966;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px 0 20px 10px;
+  margin-bottom: 20px;
+}
+#why-choose-us .container .card .benfit-card .inner-2 .outer-2 {
+  width: 60px;
+  height: 60px;
+  background-color: #9810fa;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px 0 20px 10px;
+  margin-bottom: 20px;
+}
+#why-choose-us .container .card .benfit-card .inner .outer .in {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+#why-choose-us .container .card .benfit-card .inner-1 .outer-1 .in-1 {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+#why-choose-us .container .card .benfit-card .inner-2 .outer-2 .in-2 {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+#why-choose-us .more-benefits img {
+  width: 50%;
+  float: left;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+#why-choose-us .more-benefits .content {
+  width: 50%;
+  float: left;
+  padding-left: 45px;
+  margin-top: 80px;
+}
+#why-choose-us .more-benefits .content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#why-choose-us .more-benefits .content h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#why-choose-us .more-benefits .content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4a5565;
+}
+
+#why-choose-us .more-benefits .content .content-1 {
+  border-left: 4px solid black;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+#why-choose-us .more-benefits .content .content-2 {
+  border-left: 4px solid black;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+#why-choose-us .more-benefits .content .content-3 {
+  border-left: 4px solid black;
+  padding-left: 20px;
+  margin-bottom: 145px;
+}
+#testimonails .container .title {
+  text-align: center;
+}
+#testimonails .container .title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #101828;
+  margin-bottom: 20px;
+}
+
+#testimonails .container .title p {
+  font-size: 20px;
+  font: weight 400;
+  color: #4a5565;
+  margin-bottom: 60px;
+}
+#testimonails .container .reviews .card .outer img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  float: left;
+  margin: auto;
+}
+#testimonails .container .reviews .card .outer .info {
+  float: left;
+  padding-left: 20px;
+}
+#testimonails .container .reviews .card {
+  width: 33.333%;
+  float: left;
+  padding: 15px;
+}
+#testimonails .container .reviews .card .inner-1 {
+  background-color: #eff6ff;
+  border-radius: 10px;
+  border: 10px solid #eff6ff;
+  padding: 32px;
+}
+#testimonails .container .reviews .card .inner-2 {
+  background-color: #ecfdf5;
+  border-radius: 10px;
+  border: 10px solid #ecfdf5;
+  padding: 32px;
+}
+#testimonails .container .reviews .card .inner-3 {
+  background-color: #faf5ff;
+  border-radius: 10px;
+  border: 10px solid #faf5ff;
+  padding: 32px;
+}
+#testimonails .container .reviews .card .inner-1 .outer {
+  margin: 0 0 24px;
+}
+#testimonails .container .reviews .card .inner-2 .outer {
+  margin: 0 0 24px;
+}
+#testimonails .container .reviews .card .inner-3 .outer {
+  margin: 0 0 24px;
+}
+#testimonails .container .reviews .card .inner-1 .outer span {
+  font-weight: 700;
+  font-size: 18px;
+  color: #101828;
+}
+#testimonails .container .reviews .card .inner-2 .outer .info span {
+  font-weight: 700;
+  font-size: 18px;
+  color: #101828;
+}
+
+#testimonails .container .reviews .card .inner-3 .outer .info span {
+  font-weight: 700;
+  font-size: 18px;
+  color: #101828;
+}
+#testimonails .container .reviews .card .inner-1 .pargraph {
+  color: #364153;
+}
+#testimonails .container .reviews .card .inner-2 .pargraph {
+  color: #364153;
+}
+#testimonails .container .reviews .card .inner-3 .pargraph {
+  color: #364153;
+}
+.statiistics .item {
+  width: 25%;
+  float: left;
+  padding: 48px;
+  background-color: #f1f5f9;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 28px;
+  margin-bottom: 120px;
+}
+.statiistics .item h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+.statiistics .item span {
+  color: #4a5565;
+}
+#membership-group .container .title {
+  text-align: center;
+}
+#membership-group .container .title h2 {
+  font-size: 36;
+  font-weight: 700;
+  color: #101828;
+  margin-bottom: 20px;
+}
+#membership-group .container .title p {
+  font-size: 20;
+  font-weight: 400;
+  color: #4a5565;
+  margin-bottom: 70px;
+}
+#membership-group .container .form .form-group {
+  margin: auto;
+  width: 70%;
+  margin-bottom: 20px;
+}
+#membership-group .container .form .form-group .f-name {
+  width: 50%;
+  float: left;
+}
+#membership-group .container .form .form-group .l-name {
+  width: 50%;
+  float: left;
+  padding-left: 24px;
+}
+#membership-group .container .form .form-group .f-name label {
+  display: block;
+  padding-bottom: 10px;
+}
+#membership-group .container .form .form-group .l-name label {
+  display: block;
+  padding-bottom: 10px;
+}
+#membership-group .container .form .form-group .f-name input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 16px 24px;
+  border: 2px solid #e5e7ec;
+}
+#membership-group .container .form .form-group .l-name input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 16px 24px;
+  border: 2px solid #e5e7ec;
+}
+#membership-group .container .form input::placeholder {
+  font-size: 17px;
+}
+#membership-group .container .form .email {
+  margin: auto;
+  width: 70%;
+  padding-bottom: 20px;
+}
+#membership-group .container .form .email label {
+  display: block;
+  padding-bottom: 10px;
+}
+#membership-group .container .form .email input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 16px 24px;
+  border: 2px solid #e5e7ec;
+}
+#membership-group .container .form .phone-number {
+  margin: auto;
+  width: 70%;
+  padding-bottom: 20px;
+}
+#membership-group .container .form .phone-number label {
+  display: block;
+  padding-bottom: 10px;
+}
+#membership-group .container .form .phone-number input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 16px 24px;
+  border: 2px solid #e5e7ec;
+}
+
+#membership-group .container .form .member-ship {
+  margin: auto;
+  width: 70%;
+  padding-bottom: 20px;
+}
+#membership-group .container .form .member-ship label {
+  display: block;
+  padding-bottom: 10px;
+}
+#membership-group .container .form .member-ship select {
+  width: 100%;
+  border-radius: 10px;
+  padding: 16px 24px;
+  border: 2px solid #e5e7ec;
+  font-size: 18px;
+}
+#membership-group .container .form .fitness-goal {
+  margin: auto;
+  width: 70%;
+  padding-bottom: 10px;
+}
+#membership-group .container .form .fitness-goal label {
+  display: block;
+  padding-bottom: 10px;
+}
+#membership-group .container .form .fitness-goal textarea {
+  width: 100%;
+  border-radius: 10px;
+  padding: 16px 24px;
+  border: 2px solid #e5e7ec;
+  font-size: 18px;
+  resize: none;
+}
+#membership-group .container .form .btn {
+  margin: auto;
+  width: 70%;
+}
+#membership-group .container .form .btn button {
+  width: 100%;
+  border-radius: 10px;
+  padding: 16px 32px;
+  border: 2px solid #e5e7ec;
+  font-size: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0 0 24px;
+}
+#membership-group .container p {
+  font-size: 14px;
+  text-align: center;
+  color: #4a5565;
+}
+#footer {
+  background-color: #101828;
+  margin-top: 145px;
+}
+#footer .container .content {
+  padding-top: 80px;
+  padding-bottom: 41px;
+  border-bottom: 1px solid #91161e;
+}
+#footer .container .content .item-1 {
+  width: 50%;
+  float: left;
+}
+#footer .container .content .item-2 {
+  width: 25%;
+  float: left;
+}
+#footer .container .content .item-3 {
+  width: 25%;
+  float: left;
+}
+#footer .container .content ul {
+  list-style: none;
+}
+#footer .container .content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+#footer .container .content p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #99a1af;
+}
+#footer .container .content .item-1 p {
+  padding-bottom: 16px;
+}
+
+#footer .container .content .item-3 h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+#footer .container .content .item-3 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #99a1af;
+}
+#footer .container .content a {
+  color: #99a1af;
+  text-decoration: none;
+}
+#footer .container .content .item-1 a {
+  width: 15%;
+  float: left;
+}
+#footer .container .copyright {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+#footer .container .copyright .cp-rig p {
+  color: #6a7282;
+  font-size: 14px;
+}
+#footer .container .copyright .cp-rig {
+  float: left;
+  width: 25%;
+}
+
+#footer .container .copyright .policy {
+  float: right;
+  width: 33%;
+}
+#footer .container .copyright .policy ul {
+  list-style: none;
+}
+#footer .container .copyright .policy a {
+  text-decoration: none;
+  float: left;
+  width: 33%;
+  color: #6a7282;
+}
