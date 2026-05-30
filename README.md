@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/e2d47e6a-69df-458e-a3e0-30660732e5fd
 # FitCore Gym - Responsive Landing Page
 
 A responsive gym landing page built with HTML and CSS using Float and Clearfix layout techniques.
